@@ -1,11 +1,11 @@
 Config = {}
 Config.Commandname = "me"
-Config.Debug = true
-Config.Permissions = {} -- input nothing if everybody can do the command
+Config.Debug = false
+--Config.Permissions = {} -- input nothing if everybody can do the command
 Config.ShowTime = 2000 -- in ms
 Config.Locale = "en" -- de or en
 Config.ESXName = true
-Config.Range = 0
+Config.Range = 5
 Translation = {
         ['de'] = {
             ['nomsg'] = "Du hast keine Nachricht Angegeben, bitte mach /me Wer das liest ist cool!",
